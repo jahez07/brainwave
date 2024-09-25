@@ -1,6 +1,7 @@
 import { benefits } from "../constants";
 import Heading from "./Heading";
 import Section from "./Section";
+import Arrow from "../assets/svg/Arrow";
 
 const Benefits = () => {
   return (
@@ -31,6 +32,10 @@ const Benefits = () => {
                   height={48}
                   alt={item.title}
                 />
+                <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracker-wider">
+                  Explore More
+                </p>
+                <Arrow />
               </div>
             </div>
           </div>
