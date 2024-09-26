@@ -1,4 +1,4 @@
-import { check, service1 } from "../assets";
+import { check, service1, service2 } from "../assets";
 import { brainwaveServices } from "../constants";
 import Generating from "./Generating";
 import Heading from "./Heading";
@@ -46,6 +46,23 @@ const Services = () => {
             </div>
 
             <Generating className="absolute left-4 right-4 bottom-4 border-n-1/15 border lg:left-1/2 lg:right-auto lg:bottom-8 lg:-translate-x-1/2" />
+          </div>
+
+          <div className="relative z-1 grid gap-5 lg:group-cols-2">
+            <div
+              className="relative min-h-[39rem] border border-n-1/20 
+            rounded-3xl overflow-hidden"
+            >
+              <div className="absolute inset-0">
+                <img
+                  className="h-full w-full object-cover"
+                  width={630}
+                  height={750}
+                  src={service2}
+                  alt="Robot"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
