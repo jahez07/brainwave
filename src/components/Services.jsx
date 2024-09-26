@@ -3,7 +3,12 @@ import { brainwaveServices } from "../constants";
 import Generating from "./Generating";
 import Heading from "./Heading";
 import Section from "./Section";
-import { PhotoChatMessage } from "./design/Services";
+import {
+  PhotoChatMessage,
+  Gradient,
+  VideoBar,
+  VideoChatMessage,
+} from "./design/Services";
 
 const Services = () => {
   return (
