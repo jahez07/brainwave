@@ -2,6 +2,7 @@ import { grid } from "../assets";
 import { roadmap } from "../constants";
 import Heading from "./Heading";
 import Section from "./Section";
+import Tagline from "./Tagline";
 
 const Roadmap = () => {
   return (
@@ -16,7 +17,18 @@ const Roadmap = () => {
               <div key={item.id}>
                 <div>
                   <div>
-                    <img src={grid} alt="" className="w-full" />
+                    <img
+                      src={grid}
+                      alt="Grid"
+                      className="w-full"
+                      width={550}
+                      height={550}
+                    />
+                  </div>
+                  <div className="relative z-1 ">
+                    <div className="flex items-center justify-between">
+                      <Tagline>{item.date}</Tagline>
+                    </div>
                   </div>
                 </div>
               </div>
