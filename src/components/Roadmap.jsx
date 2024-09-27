@@ -14,7 +14,10 @@ const Roadmap = () => {
             const status = item.status === "done" ? "Done" : "In Progress";
 
             return (
-              <div key={item.id}>
+              <div
+                key={item.id}
+                className={`md:flex even:md:translate-y-[7rem]`}
+              >
                 <div>
                   <div>
                     <img
