@@ -16,7 +16,7 @@ const Roadmap = () => {
               <div key={item.id}>
                 <div>
                   <div>
-                    <img src={grid} alt="" />
+                    <img src={grid} alt="" className="w-full" />
                   </div>
                 </div>
               </div>
