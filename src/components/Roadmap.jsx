@@ -50,8 +50,8 @@ const Roadmap = () => {
                       />
                     </div>
 
-                    <h4>{item.title}</h4>
-                    <p>{item.text}</p>
+                    <h4 className="h4 mb-4">{item.title}</h4>
+                    <p className="body-2 text-n-4">{item.text}</p>
                   </div>
                 </div>
               </div>
