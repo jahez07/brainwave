@@ -33,7 +33,8 @@ const Roadmap = () => {
                   <div className="relative z-1 ">
                     <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
                       <Tagline>{item.date}</Tagline>
-                      <div>
+
+                      <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
                         <img
                           src={item.status === "done" ? check2 : loading1}
                           alt="status"
@@ -45,7 +46,7 @@ const Roadmap = () => {
                       </div>
                     </div>
 
-                    <div className="mb-10">
+                    <div className="mb-10 -my-10 -mx-15">
                       <img
                         src={item.imageUrl}
                         alt={item.title}
