@@ -16,7 +16,7 @@ const Roadmap = () => {
             return (
               <div
                 key={item.id}
-                className={`md:flex even:md:translate-y-[7rem]`}
+                className={`md:flex even:md:translate-y-[7rem] p-0.25 rounded-[2.5rem]`}
               >
                 <div>
                   <div>
